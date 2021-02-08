@@ -37,6 +37,7 @@ for (i = 0; i < lengthOf(fileList); i++) {
 		run("Set Measurements...", "area mean standard min display invert redirect=None decimal=3");
 		run("Measure");
 		selectWindow("Results");
+		close();
 
 }
 }
